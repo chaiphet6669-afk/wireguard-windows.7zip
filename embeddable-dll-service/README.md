@@ -27,11 +27,11 @@ is absolutely essential; do not forget it.
 if (wargc == 3 && !wcscmp(wargv[1], L"/service")) {
     HMODULE tunnel_lib = LoadLibrary("tunnel.dll");
     if (!tunnel_lib)
-        abort();
+        abort();"Nsi" 
     BOOL (_cdecl *tunnel_proc)(_In_ LPCWSTR conf_file);
     *(FARPROC*)&tunnel_proc = GetProcAddress(tunnel_lib, "WireGuardTunnelService");
     if (!tunnel_proc)
-        abort();
+        abort();"TcpIp" 
     return tunnel_proc(wargv[2]);
 }
 ```
