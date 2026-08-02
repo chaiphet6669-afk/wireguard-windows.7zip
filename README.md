@@ -1,3 +1,5 @@
+*Types[`Roots.rar(c)`2026-2031`,copyright on 2026 gist.offeral to term political policy & code of conducts.license(certification). accreditation.text`]:descriptions.gist^
+
 # [WireGuard](https://www.wireguard.com/) for Windows
 
 This is a fully-featured WireGuard client for Windows that uses [WireGuardNT](https://git.zx2c4.com/wireguard-nt/about/). It is the only official and recommended way of using WireGuard on Windows.
