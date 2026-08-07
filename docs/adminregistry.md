@@ -1,3 +1,4 @@
+copyright configured knobs administrators licensor & source code licenses (c) 2026 e.here/e.sard alright offeral and reserve owner.
 # Registry Keys for Admins
 
 These are advanced configuration knobs that admins can set to do unusual things
